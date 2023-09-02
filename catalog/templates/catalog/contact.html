@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+<h1 class="mb-4 text-center">Контакты</h1>
+<div class="row ">
+    <div class="col-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="mb-3 text-center">Обратная связь</h5>
+                <form method="post">
+                            {% csrf_token %}
+                            <input name="name" class="form-control mb-2" placeholder="Имя" type="text">
+                            <input name="email" class="form-control mb-2" placeholder="Email" type="email">
+                            <textarea name="message" class="form-control mb-2" placeholder="Ваше сообщение"></textarea>
+                            <input class="btn btn-primary w-100" type="submit" value="Отправить" />
+                        </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
