@@ -1,17 +1,17 @@
 [
   {
     "model": "catalog.category",
-    "pk": 7,
+    "pk": 1,
     "fields": {
-      "category_name": "Телефоны",
-      "description": "Новые"
+      "category_name": "РўРµР»РµС„РѕРЅС‹",
+      "description": "РќРѕРІС‹Рµ"
     }
   },
   {
     "model": "catalog.category",
-    "pk": 8,
+    "pk": 2,
     "fields": {
-      "category_name": "Телевизоры",
+      "category_name": "РўРµР»РµРІРёР·РѕСЂС‹",
       "description": ""
     }
   },
@@ -20,12 +20,12 @@
     "pk": 5,
     "fields": {
       "product_name": "Samsung A32",
-      "description": "Телефон",
+      "description": "РўРµР»РµС„РѕРЅ",
       "image": "",
-      "category": 13,
+      "category": 1,
       "price": "30000.00",
       "date_create": "2023-09-08",
-      "last_modified_date": "2023-09-08"
+      "last_modified_date": "2023-09-09"
     }
   },
   {
@@ -35,10 +35,10 @@
       "product_name": "Samsung A52",
       "description": "",
       "image": "",
-      "category": 13,
+      "category": 1,
       "price": "40000.00",
-      "date_create": "2023-09-08",
-      "last_modified_date": "2023-09-08"
+      "date_create": "2023-09-09",
+      "last_modified_date": "2023-09-09"
     }
   },
   {
@@ -48,10 +48,10 @@
       "product_name": "DEXP",
       "description": "",
       "image": "",
-      "category": 14,
+      "category": 2,
       "price": "45000.00",
-      "date_create": "2023-09-07",
-      "last_modified_date": "2023-09-08"
+      "date_create": "2023-09-09",
+      "last_modified_date": "2023-09-09"
     }
   }
 ]
