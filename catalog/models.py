@@ -25,8 +25,8 @@ class Product(models.Model):
     # category = models.CharField(max_length=150, verbose_name='Категория')
     category = models.ForeignKey(Category, on_delete=models.CASCADE, verbose_name='Категория', )
     price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name='Цена за покупку')
-    date_create = models.DateField(verbose_name='Дата создания')
-    last_modified_date = models.DateField(verbose_name='Дата последнего изменения')
+    date_create = models.DateField(auto_now_add=True, verbose_name='Дата создания')
+    last_modified_date = models.DateField(auto_now=True, verbose_name='Дата последнего изменения')
 
     def __str__(self):
         # Строковое отображение объекта
