@@ -6,7 +6,7 @@ from catalog.models import Product
 def index(request):
     context = {
         'title': 'Главная',
-        'products': Product.objects.all()[:]
+        'products': Product.objects.all()[:5]
 
     }
     print(context['products'])
