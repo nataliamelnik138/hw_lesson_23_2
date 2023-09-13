@@ -1,16 +1,19 @@
 from django.shortcuts import render
+from django.views.generic import TemplateView
 
 from catalog.models import Product
 
 
-def index(request):
-    context = {
-        'title': 'Главная',
-        'products': Product.objects.all()[:5]
-
+class IndexView(TemplateView):
+    template_name = 'catalog/index.html'
+    extra_context = {
+        'title': 'Главная страница'
     }
-    print(context['products'])
-    return render(request, 'catalog/index.html', context=context)
+
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        context_data['object_list'] = Product.objects.all()[:5]
+        return context_data
 
 
 def contact(request):
