@@ -32,9 +32,15 @@ class ProductDetailView(DetailView):
     model = Product
 
     def get_queryset(self):
-
         queryset = super().get_queryset()
         queryset = queryset.filter(pk=self.kwargs.get('pk'))
         return queryset
+
+    def get_context_data(self, *args, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        product_item = Product.objects.get(pk=self.kwargs.get('pk'))
+        # context_data['product_pk'] = product_item.pk
+        context_data['title'] = product_item.product_name
+        return context_data
 
 
