@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, DetailView
 
 from catalog.models import Product
 
@@ -28,12 +28,13 @@ def contact(request):
     return render(request, 'catalog/contact.html', context)
 
 
-def get_product(request, pk):
-    product = Product.objects.get(pk=pk)
-    context = {
-        'title': product.product_name,
-        'product': product
+class ProductDetailView(DetailView):
+    model = Product
 
-    }
-    print(context['product'])
-    return render(request, f'catalog/product.html', context=context)
+    def get_queryset(self):
+
+        queryset = super().get_queryset()
+        queryset = queryset.filter(pk=self.kwargs.get('pk'))
+        return queryset
+
+
