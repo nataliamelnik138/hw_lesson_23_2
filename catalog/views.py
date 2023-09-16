@@ -42,5 +42,3 @@ class ProductDetailView(DetailView):
         # context_data['product_pk'] = product_item.pk
         context_data['title'] = product_item.product_name
         return context_data
-
-
