@@ -4,7 +4,7 @@ from django.conf import settings
 register = template.Library()
 
 
-@register.simple_tag()
+@register.simple_tag
 def mediafile(value):
     """
     Тег для преобразования пути в полный путь для доступа к медиафайлу.
