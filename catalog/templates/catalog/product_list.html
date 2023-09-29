@@ -6,7 +6,7 @@
     </p>
 </div>
 {% for product in object_list %}
-<div class="col-3">
+<div class="col-6">
     <div class="card mb-4 box-shadow">
         <div class="card-header">
             <h4 class="my-0 font-weight-normal">{{product.product_name}}</h4>
@@ -20,7 +20,11 @@
             </ul>
 
 
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
+            <!--            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>-->
+
+            <a href="{% url 'catalog:product' product.pk %}" class="btn btn-outline-primary" role="button">Просмотреть</a>
+            <a href="{% url 'catalog:edit_product' product.pk %}" class="btn btn-outline-primary" role="button">Редактировать</a>
+            <a href="{% url 'catalog:delete_product' product.pk %}" class="btn btn-outline-primary" role="button">Удалить</a>
         </div>
 
     </div>
