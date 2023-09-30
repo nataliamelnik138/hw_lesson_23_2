@@ -19,7 +19,7 @@ class ProductForm(StyleFormMixin, forms.ModelForm):
 
     def clean_product_name(self):
         product_name = self.cleaned_data.get('product_name')
-        if set(product_name.lower().split()).intersection(set(settings.FORBIDDEN_WORDS)):
+        if product_name and set(product_name.lower().split()).intersection(set(settings.FORBIDDEN_WORDS)):
             raise forms.ValidationError('Нельзя использовать запрещенные слова')
         return product_name
 
