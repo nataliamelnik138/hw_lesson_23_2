@@ -176,7 +176,7 @@
     "user": 1,
     "content_type": 9,
     "object_id": "1",
-    "object_repr": "Новый пост",
+    "object_repr": "РќРѕРІС‹Р№ РїРѕСЃС‚",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -189,7 +189,7 @@
     "user": 1,
     "content_type": 9,
     "object_id": "2",
-    "object_repr": "Пост 2",
+    "object_repr": "РџРѕСЃС‚ 2",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -202,7 +202,7 @@
     "user": 1,
     "content_type": 9,
     "object_id": "3",
-    "object_repr": "Пост 3",
+    "object_repr": "РџРѕСЃС‚ 3",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -241,7 +241,7 @@
     "user": 1,
     "content_type": 9,
     "object_id": "14",
-    "object_repr": "Пост 10",
+    "object_repr": "РџРѕСЃС‚ 10",
     "action_flag": 2,
     "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
   }
@@ -254,7 +254,7 @@
     "user": 1,
     "content_type": 9,
     "object_id": "24",
-    "object_repr": "Пост 15",
+    "object_repr": "РџРѕСЃС‚ 15",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -267,7 +267,7 @@
     "user": 1,
     "content_type": 7,
     "object_id": "3",
-    "object_repr": "Программое обеспечение",
+    "object_repr": "РџСЂРѕРіСЂР°РјРјРѕРµ РѕР±РµСЃРїРµС‡РµРЅРёРµ",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -278,7 +278,7 @@
   "fields": {
     "action_time": "2023-09-29T15:01:23.597Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "2",
     "object_repr": "1.0 New",
     "action_flag": 1,
@@ -291,7 +291,7 @@
   "fields": {
     "action_time": "2023-09-29T15:01:32.900Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "2",
     "object_repr": "1.0 New",
     "action_flag": 2,
@@ -304,7 +304,7 @@
   "fields": {
     "action_time": "2023-09-29T15:01:38.604Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "2",
     "object_repr": "1.0 New",
     "action_flag": 2,
@@ -317,7 +317,7 @@
   "fields": {
     "action_time": "2023-09-29T15:09:29.143Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "2",
     "object_repr": "1.0 New",
     "action_flag": 2,
@@ -330,7 +330,7 @@
   "fields": {
     "action_time": "2023-09-29T15:18:19.714Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "3",
     "object_repr": "1.1 N",
     "action_flag": 1,
@@ -343,7 +343,7 @@
   "fields": {
     "action_time": "2023-09-29T15:18:25.866Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "2",
     "object_repr": "1.0 New",
     "action_flag": 2,
@@ -356,7 +356,7 @@
   "fields": {
     "action_time": "2023-09-29T15:25:54.820Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "2",
     "object_repr": "1.0 New",
     "action_flag": 2,
@@ -369,7 +369,7 @@
   "fields": {
     "action_time": "2023-09-29T15:26:12.807Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "2",
     "object_repr": "1.0 New",
     "action_flag": 2,
@@ -382,7 +382,7 @@
   "fields": {
     "action_time": "2023-09-29T15:51:05.472Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "3",
     "object_repr": "1.1 N",
     "action_flag": 2,
@@ -395,7 +395,7 @@
   "fields": {
     "action_time": "2023-09-29T15:58:29.236Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "4",
     "object_repr": "1.2 Ne",
     "action_flag": 2,
@@ -408,7 +408,7 @@
   "fields": {
     "action_time": "2023-09-29T16:03:52.343Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "4",
     "object_repr": "1.2 Ne",
     "action_flag": 2,
@@ -421,7 +421,7 @@
   "fields": {
     "action_time": "2023-09-29T16:10:56.397Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "4",
     "object_repr": "1.2 Ne",
     "action_flag": 2,
@@ -434,7 +434,7 @@
   "fields": {
     "action_time": "2023-09-29T16:41:09.859Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "3",
     "object_repr": "1.1 N",
     "action_flag": 2,
@@ -447,7 +447,7 @@
   "fields": {
     "action_time": "2023-09-29T16:48:29.432Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "9",
     "object_repr": "1.0 New2",
     "action_flag": 2,
@@ -460,7 +460,7 @@
   "fields": {
     "action_time": "2023-09-29T16:48:33.690Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "9",
     "object_repr": "1.0 New2",
     "action_flag": 2,
@@ -473,7 +473,7 @@
   "fields": {
     "action_time": "2023-09-29T16:48:38.350Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "3",
     "object_repr": "1.1 N",
     "action_flag": 2,
@@ -486,7 +486,7 @@
   "fields": {
     "action_time": "2023-09-29T16:49:06.630Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "4",
     "object_repr": "1.2 New",
     "action_flag": 2,
@@ -499,7 +499,7 @@
   "fields": {
     "action_time": "2023-09-29T16:49:30.854Z",
     "user": 1,
-    "content_type": 14,
+    "content_type": 1,
     "object_id": "4",
     "object_repr": "1.2 New",
     "action_flag": 2,
@@ -726,7 +726,7 @@
   "model": "auth.permission",
   "pk": 25,
   "fields": {
-    "name": "Can add категория",
+    "name": "Can add РєР°С‚РµРіРѕСЂРёСЏ",
     "content_type": 7,
     "codename": "add_category"
   }
@@ -735,7 +735,7 @@
   "model": "auth.permission",
   "pk": 26,
   "fields": {
-    "name": "Can change категория",
+    "name": "Can change РєР°С‚РµРіРѕСЂРёСЏ",
     "content_type": 7,
     "codename": "change_category"
   }
@@ -744,7 +744,7 @@
   "model": "auth.permission",
   "pk": 27,
   "fields": {
-    "name": "Can delete категория",
+    "name": "Can delete РєР°С‚РµРіРѕСЂРёСЏ",
     "content_type": 7,
     "codename": "delete_category"
   }
@@ -753,7 +753,7 @@
   "model": "auth.permission",
   "pk": 28,
   "fields": {
-    "name": "Can view категория",
+    "name": "Can view РєР°С‚РµРіРѕСЂРёСЏ",
     "content_type": 7,
     "codename": "view_category"
   }
@@ -762,7 +762,7 @@
   "model": "auth.permission",
   "pk": 29,
   "fields": {
-    "name": "Can add продукт",
+    "name": "Can add РїСЂРѕРґСѓРєС‚",
     "content_type": 8,
     "codename": "add_product"
   }
@@ -771,7 +771,7 @@
   "model": "auth.permission",
   "pk": 30,
   "fields": {
-    "name": "Can change продукт",
+    "name": "Can change РїСЂРѕРґСѓРєС‚",
     "content_type": 8,
     "codename": "change_product"
   }
@@ -780,7 +780,7 @@
   "model": "auth.permission",
   "pk": 31,
   "fields": {
-    "name": "Can delete продукт",
+    "name": "Can delete РїСЂРѕРґСѓРєС‚",
     "content_type": 8,
     "codename": "delete_product"
   }
@@ -789,7 +789,7 @@
   "model": "auth.permission",
   "pk": 32,
   "fields": {
-    "name": "Can view продукт",
+    "name": "Can view РїСЂРѕРґСѓРєС‚",
     "content_type": 8,
     "codename": "view_product"
   }
@@ -834,7 +834,7 @@
   "model": "auth.permission",
   "pk": 37,
   "fields": {
-    "name": "Can add клиент",
+    "name": "Can add РєР»РёРµРЅС‚",
     "content_type": 10,
     "codename": "add_clients"
   }
@@ -843,7 +843,7 @@
   "model": "auth.permission",
   "pk": 38,
   "fields": {
-    "name": "Can change клиент",
+    "name": "Can change РєР»РёРµРЅС‚",
     "content_type": 10,
     "codename": "change_clients"
   }
@@ -852,7 +852,7 @@
   "model": "auth.permission",
   "pk": 39,
   "fields": {
-    "name": "Can delete клиент",
+    "name": "Can delete РєР»РёРµРЅС‚",
     "content_type": 10,
     "codename": "delete_clients"
   }
@@ -861,7 +861,7 @@
   "model": "auth.permission",
   "pk": 40,
   "fields": {
-    "name": "Can view клиент",
+    "name": "Can view РєР»РёРµРЅС‚",
     "content_type": 10,
     "codename": "view_clients"
   }
@@ -870,8 +870,8 @@
   "model": "auth.permission",
   "pk": 41,
   "fields": {
-    "name": "Can add сообщение",
-    "content_type": 11,
+    "name": "Can add СЃРѕРѕР±С‰РµРЅРёРµ",
+    "content_type": 10,
     "codename": "add_messages"
   }
 },
@@ -879,8 +879,8 @@
   "model": "auth.permission",
   "pk": 42,
   "fields": {
-    "name": "Can change сообщение",
-    "content_type": 11,
+    "name": "Can change СЃРѕРѕР±С‰РµРЅРёРµ",
+    "content_type": 10,
     "codename": "change_messages"
   }
 },
@@ -888,8 +888,8 @@
   "model": "auth.permission",
   "pk": 43,
   "fields": {
-    "name": "Can delete сообщение",
-    "content_type": 11,
+    "name": "Can delete СЃРѕРѕР±С‰РµРЅРёРµ",
+    "content_type": 10,
     "codename": "delete_messages"
   }
 },
@@ -897,8 +897,8 @@
   "model": "auth.permission",
   "pk": 44,
   "fields": {
-    "name": "Can view сообщение",
-    "content_type": 11,
+    "name": "Can view СЃРѕРѕР±С‰РµРЅРёРµ",
+    "content_type": 10,
     "codename": "view_messages"
   }
 },
@@ -906,8 +906,8 @@
   "model": "auth.permission",
   "pk": 45,
   "fields": {
-    "name": "Can add рассылка",
-    "content_type": 12,
+    "name": "Can add СЂР°СЃСЃС‹Р»РєР°",
+    "content_type": 1,
     "codename": "add_mailingsettings"
   }
 },
@@ -915,8 +915,8 @@
   "model": "auth.permission",
   "pk": 46,
   "fields": {
-    "name": "Can change рассылка",
-    "content_type": 12,
+    "name": "Can change СЂР°СЃСЃС‹Р»РєР°",
+    "content_type": 1,
     "codename": "change_mailingsettings"
   }
 },
@@ -924,8 +924,8 @@
   "model": "auth.permission",
   "pk": 47,
   "fields": {
-    "name": "Can delete рассылка",
-    "content_type": 12,
+    "name": "Can delete СЂР°СЃСЃС‹Р»РєР°",
+    "content_type": 1,
     "codename": "delete_mailingsettings"
   }
 },
@@ -933,8 +933,8 @@
   "model": "auth.permission",
   "pk": 48,
   "fields": {
-    "name": "Can view рассылка",
-    "content_type": 12,
+    "name": "Can view СЂР°СЃСЃС‹Р»РєР°",
+    "content_type": 1,
     "codename": "view_mailingsettings"
   }
 },
@@ -942,8 +942,8 @@
   "model": "auth.permission",
   "pk": 49,
   "fields": {
-    "name": "Can add логи рассылки",
-    "content_type": 13,
+    "name": "Can add Р»РѕРіРё СЂР°СЃСЃС‹Р»РєРё",
+    "content_type": 1,
     "codename": "add_mailinglogs"
   }
 },
@@ -951,8 +951,8 @@
   "model": "auth.permission",
   "pk": 50,
   "fields": {
-    "name": "Can change логи рассылки",
-    "content_type": 13,
+    "name": "Can change Р»РѕРіРё СЂР°СЃСЃС‹Р»РєРё",
+    "content_type": 1,
     "codename": "change_mailinglogs"
   }
 },
@@ -960,8 +960,8 @@
   "model": "auth.permission",
   "pk": 51,
   "fields": {
-    "name": "Can delete логи рассылки",
-    "content_type": 13,
+    "name": "Can delete Р»РѕРіРё СЂР°СЃСЃС‹Р»РєРё",
+    "content_type": 1,
     "codename": "delete_mailinglogs"
   }
 },
@@ -969,8 +969,8 @@
   "model": "auth.permission",
   "pk": 52,
   "fields": {
-    "name": "Can view логи рассылки",
-    "content_type": 13,
+    "name": "Can view Р»РѕРіРё СЂР°СЃСЃС‹Р»РєРё",
+    "content_type": 3,
     "codename": "view_mailinglogs"
   }
 },
@@ -978,8 +978,8 @@
   "model": "auth.permission",
   "pk": 53,
   "fields": {
-    "name": "Can add продукт",
-    "content_type": 14,
+    "name": "Can add РїСЂРѕРґСѓРєС‚",
+    "content_type": 1,
     "codename": "add_version"
   }
 },
@@ -987,8 +987,8 @@
   "model": "auth.permission",
   "pk": 54,
   "fields": {
-    "name": "Can change продукт",
-    "content_type": 14,
+    "name": "Can change РїСЂРѕРґСѓРєС‚",
+    "content_type": 1,
     "codename": "change_version"
   }
 },
@@ -996,8 +996,8 @@
   "model": "auth.permission",
   "pk": 55,
   "fields": {
-    "name": "Can delete продукт",
-    "content_type": 14,
+    "name": "Can delete РїСЂРѕРґСѓРєС‚",
+    "content_type": 1,
     "codename": "delete_version"
   }
 },
@@ -1005,27 +1005,9 @@
   "model": "auth.permission",
   "pk": 56,
   "fields": {
-    "name": "Can view продукт",
-    "content_type": 14,
+    "name": "Can view РїСЂРѕРґСѓРєС‚",
+    "content_type": 1,
     "codename": "view_version"
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$600000$kgdyCOkQeh7MbUmgE37wOq$Bd9sn7ObASKGN95VaDsMUHhCvorykXRtr/UcL63T1bg=",
-    "last_login": "2023-09-29T13:02:03.012Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2023-09-09T14:57:26.272Z",
-    "groups": [],
-    "user_permissions": []
   }
 },
 {
@@ -1048,9 +1030,9 @@
   "model": "blog.blogpost",
   "pk": 1,
   "fields": {
-    "title": "Новый пост",
+    "title": "РќРѕРІС‹Р№ РїРѕСЃС‚",
     "slug": "novyj-post",
-    "content": "Тестовый пост",
+    "content": "РўРµСЃС‚РѕРІС‹Р№ РїРѕСЃС‚",
     "preview_image": "pgAdmin_4.jpg",
     "created_at": "2023-09-15T15:42:59.068Z",
     "is_published": true,
@@ -1061,9 +1043,9 @@
   "model": "blog.blogpost",
   "pk": 2,
   "fields": {
-    "title": "Пост 2",
+    "title": "РџРѕСЃС‚ 2",
     "slug": "post-2",
-    "content": "Новый тестовый пост",
+    "content": "РќРѕРІС‹Р№ С‚РµСЃС‚РѕРІС‹Р№ РїРѕСЃС‚",
     "preview_image": "3.jpg",
     "created_at": "2023-09-15T16:09:03.991Z",
     "is_published": true,
@@ -1074,9 +1056,9 @@
   "model": "blog.blogpost",
   "pk": 3,
   "fields": {
-    "title": "Пост 3",
+    "title": "РџРѕСЃС‚ 3",
     "slug": "post-3",
-    "content": "Третий пост",
+    "content": "РўСЂРµС‚РёР№ РїРѕСЃС‚",
     "preview_image": "Skypro_-_Google_Chrome.jpg",
     "created_at": "2023-09-15T16:09:54.558Z",
     "is_published": true,
@@ -1087,9 +1069,9 @@
   "model": "blog.blogpost",
   "pk": 4,
   "fields": {
-    "title": "Пост 4",
+    "title": "РџРѕСЃС‚ 4",
     "slug": "post-4",
-    "content": "Четвертый пост",
+    "content": "Р§РµС‚РІРµСЂС‚С‹Р№ РїРѕСЃС‚",
     "preview_image": "",
     "created_at": "2023-09-15T17:31:33.628Z",
     "is_published": false,
@@ -1100,9 +1082,9 @@
   "model": "blog.blogpost",
   "pk": 6,
   "fields": {
-    "title": "Пост 5",
+    "title": "РџРѕСЃС‚ 5",
     "slug": "post-5",
-    "content": "Пятый пост",
+    "content": "РџСЏС‚С‹Р№ РїРѕСЃС‚",
     "preview_image": "",
     "created_at": "2023-09-15T17:33:25.580Z",
     "is_published": true,
@@ -1113,9 +1095,9 @@
   "model": "blog.blogpost",
   "pk": 9,
   "fields": {
-    "title": "Пост 6",
+    "title": "РџРѕСЃС‚ 6",
     "slug": "post-6",
-    "content": "Тестовый пост",
+    "content": "РўРµСЃС‚РѕРІС‹Р№ РїРѕСЃС‚",
     "preview_image": "",
     "created_at": "2023-09-15T17:34:05.103Z",
     "is_published": true,
@@ -1126,9 +1108,9 @@
   "model": "blog.blogpost",
   "pk": 14,
   "fields": {
-    "title": "Пост 10",
+    "title": "РџРѕСЃС‚ 10",
     "slug": "post-10",
-    "content": "Тестируем изображение",
+    "content": "РўРµСЃС‚РёСЂСѓРµРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ",
     "preview_image": "blog_images/4_Sxz68ew.jpg",
     "created_at": "2023-09-16T08:22:53.571Z",
     "is_published": true,
@@ -1139,9 +1121,9 @@
   "model": "blog.blogpost",
   "pk": 20,
   "fields": {
-    "title": "Пост 13",
+    "title": "РџРѕСЃС‚ 13",
     "slug": "post-13",
-    "content": "тест",
+    "content": "С‚РµСЃС‚",
     "preview_image": "",
     "created_at": "2023-09-16T08:55:25.546Z",
     "is_published": true,
@@ -1152,9 +1134,9 @@
   "model": "blog.blogpost",
   "pk": 21,
   "fields": {
-    "title": "Пост",
+    "title": "РџРѕСЃС‚",
     "slug": "post",
-    "content": "ппр",
+    "content": "РїРїСЂ",
     "preview_image": "",
     "created_at": "2023-09-16T09:08:13.530Z",
     "is_published": true,
@@ -1165,9 +1147,9 @@
   "model": "blog.blogpost",
   "pk": 23,
   "fields": {
-    "title": "Пост 14",
+    "title": "РџРѕСЃС‚ 14",
     "slug": "post-14",
-    "content": "ыявчасм",
+    "content": "С‹СЏРІС‡Р°СЃРј",
     "preview_image": "",
     "created_at": "2023-09-16T09:25:17.685Z",
     "is_published": true,
@@ -1178,9 +1160,9 @@
   "model": "blog.blogpost",
   "pk": 24,
   "fields": {
-    "title": "Пост 15",
+    "title": "РџРѕСЃС‚ 15",
     "slug": "post-15",
-    "content": "Тест",
+    "content": "РўРµСЃС‚",
     "preview_image": "blog_images/2.jpg",
     "created_at": "2023-09-16T09:27:04.078Z",
     "is_published": true,
@@ -1191,9 +1173,9 @@
   "model": "blog.blogpost",
   "pk": 25,
   "fields": {
-    "title": "Пост 16",
+    "title": "РџРѕСЃС‚ 16",
     "slug": "post-16",
-    "content": "ТЕСТ",
+    "content": "РўР•РЎРў",
     "preview_image": "blog_images/4.jpg",
     "created_at": "2023-09-16T09:32:56.243Z",
     "is_published": true,
