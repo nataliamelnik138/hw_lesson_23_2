@@ -13,7 +13,9 @@
             <button type="submit" class="btn btn-primary w-50 mb-4" >Вход</button>
         </form>
 
-<div class="card-footer mt-4"></div>
+<div class="card-footer mt-4">
+    <a class="btn btn-linc" href="{% url 'users:password_recovery' %}" role="button">Забыли пароль?</a>
+</div>
     </div>
 </div>
 {% endblock %}
