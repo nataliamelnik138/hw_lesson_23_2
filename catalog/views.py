@@ -76,8 +76,8 @@ class ProductUpdateView(UpdateView):
     success_url = reverse_lazy('catalog:list_product')
 
     def get_object(self, queryset=None):
-        product_name = self.kwargs.get('product_name')
-        product = get_object_or_404(Product, name=product_name)
+        product_pk = self.kwargs.get('pk')
+        product = get_object_or_404(Product, pk=product_pk)
         if product.owner != self.request.user and not self.request.user.is_staff:
             raise Http404
 
@@ -89,8 +89,8 @@ class ProductDeleteView(DeleteView):
     success_url = reverse_lazy('catalog:list_product')
 
     def get_object(self, queryset=None):
-        product_name = self.kwargs.get('product_name')
-        product = get_object_or_404(Product, name=product_name)
+        product_pk = self.kwargs.get('pk')
+        product = get_object_or_404(Product, pk=product_pk)
         if product.owner != self.request.user and not self.request.user.is_staff:
             raise Http404
 
