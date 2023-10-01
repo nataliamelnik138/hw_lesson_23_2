@@ -1,4 +1,5 @@
 from django.db import models
+from users.models import User
 
 
 NULLABLE = {'blank': True, 'null': True}
@@ -27,6 +28,8 @@ class Product(models.Model):
     date_create = models.DateField(auto_now_add=True, verbose_name='Дата создания')
     last_modified_date = models.DateField(auto_now=True, verbose_name='Дата последнего изменения')
 
+    owner = models.ForeignKey(User, on_delete=models.SET_NULL, **NULLABLE)
+
     def __str__(self):
         return f'{self.product_name}'
 
@@ -47,5 +50,3 @@ class Version(models.Model):
     class Meta:
         verbose_name = 'версия'
         verbose_name_plural = 'версии'
-
-
