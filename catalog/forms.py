@@ -28,4 +28,4 @@ class VersionForm(StyleFormMixin, forms.ModelForm):
 
     class Meta:
         model = Version
-        fields = '__all__'
+        fields = ('number', 'name', 'is_activ',)
