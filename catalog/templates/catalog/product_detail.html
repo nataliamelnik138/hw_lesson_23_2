@@ -25,6 +25,14 @@
             </ul>
             <ul class="list-unstyled mt-3 mb-4 text-start m-3">
                 <li>
+                    {% if object.owner %}
+                    Владелец: {{object.owner}}
+                    {% endif %}
+                </li>
+
+            </ul>
+            <ul class="list-unstyled mt-3 mb-4 text-start m-3">
+                <li>
                     {% if version %}
                     Активная версия: {{version}}
 
