@@ -1,14 +1,14 @@
 import random
-
+from django.utils.crypto import get_random_string
 from django.contrib.auth.views import LoginView as BaseLoginView
 from django.contrib.auth.views import LogoutView as BaseLogoutView
 from django.core.mail import send_mail
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy, reverse
-from django.views.generic import CreateView, TemplateView, UpdateView
+from django.views.generic import CreateView, TemplateView, UpdateView, FormView
 
 from config import settings
-from users.forms import UserRegisterForm, UserForm
+from users.forms import UserRegisterForm, UserForm, PasswordRecoveryForm
 from users.models import User
 
 
@@ -85,3 +85,27 @@ def generate_new_password(request):
     request.user.save()
     return redirect(reverse('catalog:index'))
 
+
+class PasswordRecoveryView(FormView):
+    template_name = 'users/password_recovery.html'
+    form_class = PasswordRecoveryForm
+    success_url = reverse_lazy('users:login')
+
+    def form_valid(self, form):
+        email = form.cleaned_data['email']
+        user = User.objects.get(email=email)
+        length = 12
+        alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+        password = get_random_string(length, alphabet)
+        user.set_password(password)
+        user.save()
+        subject = 'Восстановление пароля'
+        message = f'Ваш новый пароль: {password}'
+        send_mail(
+            subject=subject,
+            message=message,
+            from_email=settings.EMAIL_HOST_USER,
+            recipient_list=[user.email],
+            fail_silently=False,
+        )
+        return super().form_valid(form)
