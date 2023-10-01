@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.http import Http404
+from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView, DetailView, CreateView, ListView, UpdateView, DeleteView
 
@@ -55,6 +56,12 @@ class ProductCreateView(CreateView):
     form_class = ProductForm
     success_url = reverse_lazy('catalog:list_product')
 
+    def form_valid(self, form):
+        new_product = form.save()
+        new_product.owner = self.request.user
+        new_product.save()
+        return super().form_valid(form)
+
 
 class ProductListView(ListView):
     model = Product
@@ -68,10 +75,26 @@ class ProductUpdateView(UpdateView):
     form_class = ProductForm
     success_url = reverse_lazy('catalog:list_product')
 
+    def get_object(self, queryset=None):
+        product_name = self.kwargs.get('product_name')
+        product = get_object_or_404(Product, name=product_name)
+        if product.owner != self.request.user and not self.request.user.is_staff:
+            raise Http404
+
+        return product
+
 
 class ProductDeleteView(DeleteView):
     model = Product
     success_url = reverse_lazy('catalog:list_product')
+
+    def get_object(self, queryset=None):
+        product_name = self.kwargs.get('product_name')
+        product = get_object_or_404(Product, name=product_name)
+        if product.owner != self.request.user and not self.request.user.is_staff:
+            raise Http404
+
+        return product
 
 
 class VersionCreateView(CreateView):
