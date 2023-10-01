@@ -102,6 +102,12 @@ class VersionCreateView(CreateView):
     form_class = VersionForm
     success_url = reverse_lazy('catalog:list_product')
 
+    def form_valid(self, form):
+        product_pk = self.kwargs['pk']  # Получаем pk продукта из URL
+        product = Product.objects.get(pk=product_pk)  # Получаем объект продукта
+        form.instance.product = product  # Устанавливаем продукт в поле версии
+        return super().form_valid(form)
+
 
 class VersionDetailView(DetailView):
     model = Version
